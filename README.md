@@ -1,5 +1,5 @@
 # Convolutional-Neural-Networks-for-Visual-Recognition-CS231n
-This repository contains my implementations (on Python 3 Jupyter notebook) of the assigned algorithms in the CS231n.
+This repository contains my implementations (on Python3 Jupyter notebook) of the assigned algorithms in the CS231n.
 
 | **File name** | **Description** |
 | ------------- | ------------- |
