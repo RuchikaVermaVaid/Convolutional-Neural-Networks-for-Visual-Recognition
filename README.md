@@ -5,7 +5,7 @@ Find course notes and assignments [here](http://cs231n.github.io/)
 
 Assignment solutions are given below.
 
-| **File name** | **Description** |
+| **Assignment 1** | **Description** |
 | ------------- | ------------- |
 | [1_k_nearest_neighbor.py](https://github.com/RuchikaVermaVaid/Convolutional-Neural-Networks-for-Visual-Recognition-CS231n-/blob/master/Assignment1/cs231n/classifiers/k_nearest_neighbor.py) | A kNN classifier with L2 distance|
 | [2_knn.ipynb](https://github.com/RuchikaVermaVaid/Convolutional-Neural-Networks-for-Visual-Recognition-CS231n-/blob/master/Assignment1/knn.ipynb) | Training and testing of k-Nearest Neighbor classifier on Cifar10 dataset using different K values|
