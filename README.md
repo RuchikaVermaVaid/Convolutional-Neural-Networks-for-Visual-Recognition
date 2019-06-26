@@ -1,5 +1,5 @@
 # Convolutional-Neural-Networks-for-Visual-Recognition-CS231n
-This repository contains my implementations (on Python3 Jupyter notebook) to the assignments of the CS231n course offered by Stanford University.
+This repository contains my solutions (on Python3 Jupyter notebook) to the assignments of the CS231n course offered by Stanford University.
 
 Find course notes and assignments [here](http://cs231n.github.io/)
 
