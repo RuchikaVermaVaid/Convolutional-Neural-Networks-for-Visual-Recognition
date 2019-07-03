@@ -25,6 +25,15 @@ def svm_loss_naive(W, X, y, reg):
     dW = np.zeros(W.shape) # initialize the gradient as zero
 
     # compute the loss and the gradient
+    
+        #############################################################################
+    # TODO:                                                                     #
+    # Compute the gradient of the loss function and store it dW.                #
+    # Rather that first computing the loss and then computing the derivative,   #
+    # it may be simpler to compute the derivative at the same time that the     #
+    # loss is being computed. As a result you may need to modify some of the    #
+    # code above to compute the gradient.                                       #
+    #############################################################################
     num_classes = W.shape[1]
     num_train = X.shape[0]
     loss = 0.0
@@ -48,21 +57,7 @@ def svm_loss_naive(W, X, y, reg):
     # Add regularization to the loss.
     loss += reg * np.sum(W * W)
     dW += reg*2*W
-    
-    #############################################################################
-    # TODO:                                                                     #
-    # Compute the gradient of the loss function and store it dW.                #
-    # Rather that first computing the loss and then computing the derivative,   #
-    # it may be simpler to compute the derivative at the same time that the     #
-    # loss is being computed. As a result you may need to modify some of the    #
-    # code above to compute the gradient.                                       #
-    #############################################################################
-    # *****START OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
 
-#     pass
-
-    # *****END OF YOUR CODE (DO NOT DELETE/MODIFY THIS LINE)*****
-    
     return loss, dW
 
 
@@ -91,10 +86,6 @@ def svm_loss_vectorized(W, X, y, reg):
   # Add regularization to the loss.
   loss += reg * np.sum(W * W)
   
-  #############################################################################
-  #                             END OF YOUR CODE                              #
-  #############################################################################
-
 
   #############################################################################
   # TODO:                                                                     #
@@ -114,9 +105,6 @@ def svm_loss_vectorized(W, X, y, reg):
 
   # Regularization gradient
   dW = dW + reg * 2 * W
-  #############################################################################
-  #                             END OF YOUR CODE                              #
-  #############################################################################
 
   return loss, dW
 
